@@ -223,3 +223,75 @@ if command -v open &> /dev/null; then
         open "$OUTPUT_DIR/index.html"
     fi
 fi 
+
+## 🎉 **Résumé Complet : Comment Analyser les Résultats de Votre Modèle**
+
+Voici tout ce que vous devez savoir pour analyser efficacement les résultats de votre `neuro_offload_model` :
+
+### **🔧 Outils Créés**
+
+1. **Script d'analyse automatique** (`analyze_results.py`)
+   - Détection automatique du type de modèle (S1-S6)
+   - Analyses statistiques adaptatives  
+   - Génération de graphiques
+   - Rapports détaillés
+
+2. **Guide complet** (`GUIDE_ANALYSE.md`)
+   - Documentation complète en français
+   - Exemples d'interprétation
+   - Workflow recommandé
+   - Dépannage
+
+### **🚀 Utilisation Rapide**
+
+```bash
+<code_block_to_apply_changes_from>
+# Navigation
+cd /Users/charlesterrey/Downloads/NOUVEAU_MODELE/neuro_offload_model
+
+# Analyses rapides
+python3 analyze_results.py outputs/test_s2/           # Plasticité structurelle
+python3 analyze_results.py outputs/test_s3/ --plot   # Énergie + graphiques  
+python3 analyze_results.py test1/s6_ablation/ --plot # Études d'ablation
+
+# Consulter le guide
+open GUIDE_ANALYSE.md
+```
+
+### **📊 Ce Que Vous Obtenez**
+
+**Analyses Automatiques :**
+- **S2** : Événements structurels (GROW/PRUNE), évolution de connectivité
+- **S3** : Profils énergétiques, pics de consommation, modulation gamma
+- **S4** : Indices ODI, dépendance à l'aide externe, corrélations
+- **S6** : Comparaisons statistiques, effets de modulation, significativité
+
+**Visualisations :**
+- Séries temporelles (énergie, densité, taux)
+- Distributions (ODI, événements, consommation)
+- Corrélations (structure-énergie-comportement)
+- Comparaisons multi-conditions
+
+### **🔍 Métriques Clés à Surveiller**
+
+1. **ODI (Offloading Dependency Index)** : Mesure la dépendance à l'aide externe
+   - `ODI > 0.1` → Forte dépendance
+   - `ODI ≈ 0` → Autonomie préservée
+
+2. **Événements Structurels** : Équilibre GROW/PRUNE
+   - Ratio ~1 → Plasticité équilibrée
+   - Ratio >>1 → Croissance excessive
+
+3. **Consommation Énergétique** : Efficacité du réseau
+   - Pics → Périodes critiques
+   - Tendance → Adaptation temporelle
+
+### **💡 Workflow Recommandé**
+
+1. **Démarrage** → Analysez S2 (structure de base)
+2. **Énergie** → Examinez S3 (consommation et pics)  
+3. **Comportement** → Évaluez S4 (indices de déchargement)
+4. **Systématique** → Comparez S6 (effets de modulation)
+5. **Synthèse** → Corrélations croisées et patterns
+
+Votre modèle est maintenant entièrement analysable ! Les outils créés vous permettront de comprendre en profondeur les mécanismes de plasticité structurelle, de consommation énergétique, et de déchargement cognitif de votre réseau neuronal. 🧠✨ 
