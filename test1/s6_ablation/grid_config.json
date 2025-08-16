@@ -1,0 +1,14 @@
+{
+  "omega": [
+    0.0,
+    0.5
+  ],
+  "t0_ms": [
+    2000
+  ],
+  "seeds": [
+    42
+  ],
+  "replications": 1,
+  "s4_base_config": "configs/s4.json"
+}

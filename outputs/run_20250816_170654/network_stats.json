@@ -1,0 +1,11 @@
+{
+  "total_spikes_e": 14535,
+  "total_spikes_i": 2571,
+  "mean_rate_e": 36.3375,
+  "mean_rate_i": 25.71,
+  "weight_mean": 0.4501345791810442,
+  "weight_std": 0.13956896872992328,
+  "weight_min": 0.0,
+  "weight_max": 0.9908064516129033,
+  "has_nan_weights": false
+}

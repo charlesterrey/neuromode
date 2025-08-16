@@ -1,0 +1,119 @@
+site_name: neuro_offload_model
+site_description: Modèles neuronaux de développement et offloading cognitif (S-1→S-6)
+site_author: Équipe Neurosciences Computationnelles
+site_url: https://your-org.github.io/neuro_offload_model
+
+repo_name: your-org/neuro_offload_model
+repo_url: https://github.com/your-org/neuro_offload_model
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2025 Équipe Neurosciences Computationnelles
+
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - toc.integrate
+    - content.code.annotate
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang: fr
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            show_root_heading: true
+            show_source: true
+
+nav:
+  - Accueil: index.md
+  - Guide:
+      - Installation: installation.md
+      - Démarrage rapide: quickstart.md
+      - Tutoriel S-1→S-6: tutorial.md
+  - Modèles:
+      - S-1 Base: models/s1.md
+      - S-2 Structural: models/s2.md
+      - S-3 Critical: models/s3.md
+      - S-4 Offloading: models/s4.md
+      - S-5 Connectivity: models/s5.md
+      - S-6 Ablation: models/s6.md
+  - Référence:
+      - API: api.md
+      - Configuration: config.md
+      - Métriques: metrics.md
+  - Développement:
+      - Contribution: contributing.md
+      - Architecture: architecture.md
+      - Tests: testing.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - footnotes
+  - md_in_html
+  - attr_list
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-org/neuro_offload_model
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:contact@your-org.com
+  version:
+    provider: mike
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js 

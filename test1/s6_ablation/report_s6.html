@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rapport S-6 - Ablation Ω×t0</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .header { background-color: #f0f0f0; padding: 20px; border-radius: 10px; }
+        .section { margin: 30px 0; }
+        .stats { background-color: #f9f9f9; padding: 15px; border-left: 4px solid #007acc; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .figure { text-align: center; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🧬 Rapport d'Ablation S-6</h1>
+        <p><strong>Étude systématique:</strong> Ω×t0×seeds</p>
+        <p><strong>Date:</strong> 2025-08-16 19:08:03</p>
+    </div>
+    
+    <div class="section">
+        <h2>📊 Résumé Exécutif</h2>
+        <div class="stats">
+            <p><strong>Conditions totales:</strong> 2</p>
+            <p><strong>Réussies:</strong> 2 (100.0%)</p>
+            <p><strong>ODI moyen:</strong> 0.068 ± 0.110</p>
+            <p><strong>PDI moyen:</strong> 0.000 ± 0.000</p>
+            <p><strong>Plage ODI:</strong> [-0.010, 0.146]</p>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>📈 Tendances Principales</h2>
+        <ul>
+            <li><strong>Effet Omega:</strong> ODI croît avec Ω (autonomie réduite sous offloading)</li>
+            <li><strong>Variabilité t0:</strong> Influence du timing d'offloading selon fenêtre critique</li>
+            <li><strong>Corrélation PDI-ODI:</strong> Changements structurels liés aux changements comportementaux</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>📁 Fichiers Générés</h2>
+        <ul>
+            <li><a href="tables/odi_by_condition.csv">Table ODI par condition (CSV)</a></li>
+            <li><a href="tables/odi_by_condition.tex">Table ODI par condition (LaTeX)</a></li>
+            <li><a href="tables/summary_by_omega.csv">Résumé par Omega (CSV)</a></li>
+            <li><a href="figures/heatmap_odi.png">Heatmap ODI (Ω×t0)</a></li>
+            <li><a href="figures/barplot_odi_omega.png">Barplot ODI par Omega</a></li>
+            <li><a href="figures/scatter_odi_pdi.png">Scatter ODI-PDI</a></li>
+            <li><a href="grid_results.csv">Données complètes (CSV)</a></li>
+            <li><a href="statistical_analysis.json">Analyses statistiques (JSON)</a></li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>🖼️ Figures Principales</h2>
+        <div class="figure">
+            <h3>Heatmap ODI</h3>
+            <img src="figures/heatmap_odi.png" alt="Heatmap ODI" style="max-width: 100%; height: auto;">
+        </div>
+        <div class="figure">
+            <h3>ODI par Omega</h3>
+            <img src="figures/barplot_odi_omega.png" alt="Barplot ODI" style="max-width: 100%; height: auto;">
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>⚠️ Note Éthique</h2>
+        <p><em>Ces résultats constituent des hypothèses chiffrées issues de modèles computationnels, 
+        non des preuves empiriques. Interpréter avec prudence dans le contexte de recherche cognitive.</em></p>
+    </div>
+    
+</body>
+</html>

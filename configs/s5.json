@@ -1,0 +1,25 @@
+{
+  "seed": 42,
+  "groups": 20,
+  "dt_bin_ms": 2.0,
+  "tau_alpha_ms": 15.0,
+  "bands": {
+    "alpha": [8.0, 12.0],
+    "beta": [13.0, 30.0]
+  },
+  "var": {
+    "p": 10,
+    "auto_select": true,
+    "p_min": 1,
+    "p_max": 20,
+    "ridge_lambda": 0.001
+  },
+  "viz": {
+    "threshold_q": 0.8,
+    "coords_csv": null
+  },
+  "io": {
+    "use_existing_spikes": true,
+    "spikes_npz": "outputs/spikes_E.npz"
+  }
+} 

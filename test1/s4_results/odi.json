@@ -1,0 +1,6 @@
+{
+  "recall_noassist": 2585.0,
+  "recall_assist": 10340.0,
+  "odi": -7755.0,
+  "interpretation": "ODI>0 indique dépendance à l'aide externe"
+}

@@ -1,0 +1,11 @@
+{
+  "total_spikes_e": 0,
+  "total_spikes_i": 0,
+  "mean_rate_e": 0.0,
+  "mean_rate_i": 0.0,
+  "weight_mean": 0.49965645418725174,
+  "weight_std": 0.09954295636916483,
+  "weight_min": 0.11436246707594028,
+  "weight_max": 0.8942331010806686,
+  "has_nan_weights": false
+}
